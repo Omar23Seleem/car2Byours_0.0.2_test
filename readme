@@ -1,0 +1,11 @@
+1st ==> go inside your file directory.
+2nd ==> run in your terminal " npm install ", to install the required packages.
+3rd ==> create a file in your main directory named " nodemon.json ".
+4th ==> in your nodemon.json file create an object like so...
+        {
+          "env": {
+            "MONGO_ATLAS_PW": "your mongo atlas or cluster password here",
+            "MONGO_ATLAS_DB": "name of the DB in mongo"
+          }
+        }
+        replace the values with your own credentials.
